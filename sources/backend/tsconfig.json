@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "none",
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "lib": ["ES5"],
+    "skipLibCheck": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src/**/*.ts", "../backup.ignore.ts"],
+  "exclude": ["node_modules"]
+}
