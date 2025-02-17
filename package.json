@@ -1,0 +1,28 @@
+{
+  "name": "someday",
+  "version": "0.1.0",
+  "bin": "dist/cli.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./scripts/build.sh",
+    "postinstall": "cd sources/backend && npm ci && cd ../frontend && npm ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbbydotdev/someday-cli.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rbbydotdev/someday-cli/issues"
+  },
+  "homepage": "https://github.com/rbbydotdev/someday-cli#readme",
+  "description": "",
+  "dependencies": {
+    "@clack/prompts": "^0.10.0",
+    "@google/clasp": "^2.5.0",
+    "commander": "^13.1.0",
+    "googleapis": "^144.0.0"
+  }
+}
